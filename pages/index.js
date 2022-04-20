@@ -1,10 +1,10 @@
-import Link from 'next/link'
+import Loader from '../components/Loader';
 
 export default function Home() {
   return (
     <div>
       <main>
-        <Link href="/jimmy">jimmy</Link> 
+        <Loader show />
       </main>
     </div>
   )
