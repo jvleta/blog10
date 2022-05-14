@@ -1,11 +1,13 @@
 import Loader from '../components/Loader';
+import toast from 'react-hot-toast';
 
 export default function Home() {
   return (
     <div>
       <main>
-        <Loader show />
+        <button onClick={() => toast.success('heelllllooooo')}>Say hello</button>
+        <Loader show={false} />
       </main>
     </div>
-  )
+  );
 }
